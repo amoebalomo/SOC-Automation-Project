@@ -10,13 +10,19 @@ We will be using this as a reference for our project.
 
 Open a website and search Virtual box and download the latest version 
 
-pic
+<img width="1361" height="723" alt="Screenshot 2026-11-08 163217" src="https://github.com/user-attachments/assets/ca1f61cf-e3e3-4908-be03-6326053b2a8b" />
 
 Then alongside download windows 10 iso file
 
-pic
-
 After that open your virtual box and click on new file. name it as "demo" and add the windows 10 iso image.
+
+<img width="1365" height="722" alt="Screenshot 2026-11-08 165129" src="https://github.com/user-attachments/assets/ac2d788b-f9d0-411c-b88a-ebd00783ba3e" />
+
+Then press the start button and wait for windows 10 to load and set it up for you
+
+Then in windows 10 vm go to a browser and type Sysmon download.
+
+
 
 pic
 
