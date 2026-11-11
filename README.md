@@ -56,4 +56,16 @@ This is where it will actually start working and make sure to enter this specifi
 
 This will ensure that you have everything saved and if your open a website with your specialised IP address, it will lead to Wazuh.
 
-<img width="1345" height="717" alt="Screenshot 2026-11-09 174035" src="https://github.com/user-attachments/assets/c91fca58-5ff0-4cd1-b9b9-5664bf0d0c75" />
+Now we will configure Wazuh and Hive.
+
+<img width="1351" height="746" alt="Screenshot 2026-11-11 161638" src="https://github.com/user-attachments/assets/4f38db04-7624-44a3-b3c9-845a77a161c6" />
+
+Then you add your Personal IP address on listen_address. 
+
+<img width="1355" height="767" alt="Screenshot 2026-11-11 162051" src="https://github.com/user-attachments/assets/d2761b28-63fd-4171-acc1-60b1e6d2bda0" />
+
+now we have to stop our Cassandra and end our old service and start with our new service and rewrite it oncde more instead replacing it with "status".
+
+<img width="1361" height="696" alt="Screenshot 2026-11-11 162851" src="https://github.com/user-attachments/assets/79f3aa0c-2b44-4d40-84df-42709c151a5c" />
+
+v<img width="1345" height="717" alt="Screenshot 2026-11-09 174035" src="https://github.com/user-attachments/assets/c91fca58-5ff0-4cd1-b9b9-5664bf0d0c75" />
