@@ -69,3 +69,9 @@ now we have to stop our Cassandra and end our old service and start with our new
 <img width="1361" height="696" alt="Screenshot 2026-11-11 162851" src="https://github.com/user-attachments/assets/79f3aa0c-2b44-4d40-84df-42709c151a5c" />
 
 v<img width="1345" height="717" alt="Screenshot 2026-11-09 174035" src="https://github.com/user-attachments/assets/c91fca58-5ff0-4cd1-b9b9-5664bf0d0c75" />
+
+make sure you add your Hive IP on your host server, uncomment your http.port and then we start and enable the hive. And then we are shown with the Hive page.
+
+<img width="1363" height="758" alt="Screenshot 2026-11-11 171024" src="https://github.com/user-attachments/assets/a397b44c-d4d5-4e40-be4d-2c6c0bed28c4" />
+
+Then you go to Wazuh and add and agent, click the Windows as os option since we are working on windows. and add your public ip. And in the end it will show the number of agent and active agent too.
