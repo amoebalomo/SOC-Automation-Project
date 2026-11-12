@@ -75,3 +75,23 @@ make sure you add your Hive IP on your host server, uncomment your http.port and
 <img width="1363" height="758" alt="Screenshot 2026-11-11 171024" src="https://github.com/user-attachments/assets/a397b44c-d4d5-4e40-be4d-2c6c0bed28c4" />
 
 Then you go to Wazuh and add and agent, click the Windows as os option since we are working on windows. and add your public ip. And in the end it will show the number of agent and active agent too.
+
+Now we will configure the Wazuh even more and send telemetry containing Mimikats. The configuration of Wazuh will be under program files x86 and we will use the file ossec.config and open the file and open it in notepad. in order to download and open Mimikats, you will have to go to settings and privacy and disable virus threat and protection.
+
+And then add a separate folder where you can download Mimicats. Where next you have to extract all of the files from that folder.
+
+<img width="1242" height="674" alt="Screenshot 2026-11-12 165241" src="https://github.com/user-attachments/assets/23335ba2-2bf0-4649-bee2-2841707a458e" />
+
+Then open powershell and try running Mimicatz.
+
+<img width="1365" height="767" alt="Screenshot 2026-11-12 170121" src="https://github.com/user-attachments/assets/f4d6aadf-f9d1-48f6-ba95-9144aec0023b" />
+
+And configure ossec so we can start working. by opening Wazuh CLI and type the shown coding.
+
+<img width="1360" height="765" alt="Screenshot 2026-11-12 171215" src="https://github.com/user-attachments/assets/9ebb16f3-72ad-45f2-9b56-e1d65093cb2d" />
+
+<img width="1363" height="710" alt="Screenshot 2026-11-12 171638" src="https://github.com/user-attachments/assets/5f199957-bb31-4797-bed9-53fd22a99beb" />
+
+<img width="1363" height="710" alt="Screenshot 2026-11-12 171638" src="https://github.com/user-attachments/assets/2de54da6-69e7-4915-a50f-fcac0d3998ca" />
+
+And thats the way you fully set up a Wazuh properly.
