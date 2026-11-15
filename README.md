@@ -95,3 +95,15 @@ And configure ossec so we can start working. by opening Wazuh CLI and type the s
 <img width="1363" height="710" alt="Screenshot 2026-11-12 171638" src="https://github.com/user-attachments/assets/2de54da6-69e7-4915-a50f-fcac0d3998ca" />
 
 And thats the way you fully set up a Wazuh properly.
+
+<img width="1359" height="766" alt="Screenshot 2026-11-15 131105" src="https://github.com/user-attachments/assets/2f5eb666-ee74-4898-941b-bd60dcf23d8a" />
+
+<img width="1365" height="767" alt="Screenshot 2026-11-15 131150" src="https://github.com/user-attachments/assets/01b42e85-a856-4a77-bd8a-c384aaf64fec" />
+
+<img width="1342" height="746" alt="Screenshot 2026-11-15 131427" src="https://github.com/user-attachments/assets/53d1f0fe-b186-472c-b55d-1c83fb252122" />
+
+Add some changes to the code.
+
+<img width="1346" height="767" alt="Screenshot 2026-11-15 132931" src="https://github.com/user-attachments/assets/86ac4919-69e5-4a3c-a94b-a72967f016ea" />
+
+after few changes, turn off the mimicatz application using Powershell, it is best if it shows zero errors or faulty when closing the application on Wazuh.
